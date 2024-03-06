@@ -26,11 +26,11 @@ export default function Examples() {
                 </pre>
             </div>);
     }
-
+    //ButtonsContainer="menu"
     return (
         <Section id="examples" title="Examples">
             <Tabs 
-                ButtonsContainer="menu"
+                
                 buttons={
                 <>
                     <TabButton isSelected={selectedTopic === "components"} onClick={() => handleSelect("components")}>
